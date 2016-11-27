@@ -91,3 +91,6 @@ PROMPT='[${vcs_info_msg_0_}]:%~/%f '
 [ -f ~/.zshrc.include ] && source ~/.zshrc.include # 設定ファイルのinclude
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+export PATH=$PATH:$HOME/Library/Android/sdk/tools
+export PATH=$PATH:$HOME/Library/Android/sdk/platform-tools
